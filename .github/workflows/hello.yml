@@ -1,0 +1,22 @@
+# Workflow
+# Should have name 
+name: Hello
+
+on: 
+  workflow_dispatch: 
+
+# Jobs
+# Should be inside the workflow
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    # That epehermel container will have steps to execute 
+    steps:
+    - name: Say hello to everyone
+      run: echo "Hello dosto"
+
+# Steps
+# Should be inside the job 
+
+# Actions
+# Should be inside the steps
