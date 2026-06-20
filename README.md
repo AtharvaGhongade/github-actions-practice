@@ -4,4 +4,4 @@
 
 ## 1.Workflows
 
-To create a github actions workflow you need to create a `/github/workflows`
+To create a github actions workflow you need to create a `.github/workflows`
